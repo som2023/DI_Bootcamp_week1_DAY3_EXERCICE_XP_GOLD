@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background: #f2f5f7;
+    font-family: Arial, Helvetica;
+}
+header{
+    background: #32676d;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(224, 220, 220, 0.75);
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(224, 220, 220, 0.75);
+    -moz-box-shadow: 1px 1px 1px 1px rgba(224, 220, 220, 0.75);
+}
+header ul li{
+    display: inline-block;
+    margin: 5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+header ul li:first-child{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 5;
+}
+
+.btn{
+    background:#00a1d8;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.btn-blue{
+    padding: 10px;
+    border: 2px solid #00a1d8;
+    background: #00a1d8;
+    border-radius: 2px;
+    color: #00a1d8;
+    font-weight: 700;
+    color: #fff;
+    width: 200px;
+}
+
+.container-fluid{
+    background: #5b9189;
+    height: 100vh;
+    background: url(./img/montain.webp) no-repeat;
+    background-size: cover;
+
+}
+.layer {
+    background-color: #5b91899b;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.container{
+    margin-top:50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.title{
+    text-align: center;
+    color: rgb(236, 231, 231);
+}
+.title h1{
+    line-height: 3em;
+}
+form{
+    text-align: center;
+}
+.form-group .item{
+   display: inline-block;
+   margin-bottom: 15px;
+}
+.form-group label{
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 10px;
+ }
+ .form-group label a{
+   text-decoration: none;
+ }
+.form-group input, select{
+    box-sizing: border-box;
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+}
+.form-group select{
+    width: 560px;
+}
+.form-group ul li{
+   text-align: left;
+   font-size: 12px;
+}
+.form-group input[type="checkbox"]{
+    text-align: left;
+ }
+.title select{
+    border: 2px solid rgb(61, 105, 218);
+    color: rgb(61, 105, 218);
+    font-weight: 500;
+}
+
+.fixed-button{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border: 5px solid rgb(255, 81, 194);
+    border-radius: 100px;
+    width: 65px;
+    height: 65px;
+}
+.fixed-button img{
+    width: 60px;
+    height: 60px;
+    border:    2px solid rgb(246, 245, 241);
+    border-radius: 100px;
+}
+
+@media screen and (min-width:768px) {
+    .container{
+        width: 750px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .container{
+        width: 970px;
+    }  
+}
+@media screen and (min-width:1200px) {
+    .container{
+        width: 970px;
+    }
+}
+@media screen and (max-width: 780px) {
+    .form-group select{
+        width: 200px;
+    }
+    nav ul li{
+        margin: 0;
+        margin-top: 2px;
+        margin-left: 1px;
+        padding-top: 5px;
+    }
+    .form-group label{
+        text-align: center;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+  }
